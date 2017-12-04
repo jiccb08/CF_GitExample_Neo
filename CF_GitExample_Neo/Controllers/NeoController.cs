@@ -19,5 +19,11 @@ namespace CF_GitExample_Neo.Controllers
         {
             return View();
         }
+
+        // GET: Neo
+        public ActionResult Seung()
+        {
+            return View();
+        }
     }
 }

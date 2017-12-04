@@ -19,8 +19,15 @@ namespace CF_GitExample_Neo.Controllers
         {
             return View();
         }
-
+      
+        // GET: Neo
         public ActionResult Nick()
+        {
+          return View();
+        }
+        
+        // GET: Neo
+        public ActionResult Robert()
         {
             return View();
         }

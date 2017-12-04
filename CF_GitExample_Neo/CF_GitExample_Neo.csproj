@@ -261,6 +261,7 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Neo\Index.cshtml" />
     <Content Include="Views\Neo\Sean.cshtml" />
+    <Content Include="Views\Neo\Nick.cshtml" />
     <Content Include="Views\Neo\Robert.cshtml" />
   </ItemGroup>
   <ItemGroup>

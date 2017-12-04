@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Neo Home";
+}
+
+<div class="jumbotron">
+    <h1>@ViewBag.Title</h1>
+    <p class="lead">This index will be a testing playground for playing with GitHub in a controlled environment.</p>
+    <p><a href="@Url.Action("Index", "Home")" class="btn btn-primary btn-lg">MVC Home</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Sean Szpunar</h2>
+        <p>
+            This is the profile block for Sean Szpunar. Please use my example and replicate it within your local copy of this project. Create a "col-md-4" panel for yourself, create a new view with your first name, create a controller action to navigate to that view, and establish any buttons necessary to power navigation.
+        </p>
+        <p><a class="btn btn-default" href="@Url.Action("Sean", "Neo")">View Profile</a></p>
+    </div>
+    @*<div class="col-md-4">
+        <h2>FirstName LastName</h2>
+        <p>A small message about yourself.</p>
+        <p><a class="btn btn-default" href="link to your view">View Profile</a></p>
+    </div>*@
+</div>

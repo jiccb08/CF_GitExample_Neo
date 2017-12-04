@@ -265,6 +265,7 @@
     <Content Include="Views\Neo\Jon.cshtml" />
     <Content Include="Views\Neo\Nick.cshtml" />
     <Content Include="Views\Neo\Robert.cshtml" />
+    <Content Include="Views\Neo\June.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
